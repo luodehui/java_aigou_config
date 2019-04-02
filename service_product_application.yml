@@ -4,7 +4,7 @@ spring:
 
 ---
 server:
-  port: 8003
+  port: 8002
 spring:
   application:
     name: PRODUCT-SERVICE
@@ -23,7 +23,7 @@ mybatis-plus:
   type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
 ---
 server:
-  port: 8004
+  port: 8003
 spring:
   application:
     name: PRODUCT-SERVICE-TEST
